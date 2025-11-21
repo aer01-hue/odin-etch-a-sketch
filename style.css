@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    background-color: #f0f0f0;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-cell {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.trail {
+    background-color: #5d9e5d;
+    border-color: #386638;
+}
+
+#size-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid-cell:hover {
+    background-color: #add8e6;
+}
+
+
+
+
